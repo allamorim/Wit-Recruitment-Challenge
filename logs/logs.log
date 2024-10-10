@@ -1,0 +1,34 @@
+2024-10-11 00:02:17 - RequestID:  - Starting WitApplication using Java 23 with PID 1424 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 00:02:17 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 00:02:19 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 00:02:19 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 00:02:19 - RequestID:  - Starting service [Tomcat]
+2024-10-11 00:02:19 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 00:02:19 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 00:02:19 - RequestID:  - Root WebApplicationContext: initialization completed in 1647 ms
+2024-10-11 00:02:20 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 00:02:20 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 00:02:20 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 00:02:20 - RequestID:  - Created new connection: rabbitConnectionFactory#56f730b2:0/SimpleConnection@71560f51 [delegate=amqp://guest@127.0.0.1:5672/, localPort=55972]
+2024-10-11 00:02:20 - RequestID:  - Auto-declaring a non-durable, auto-delete, or exclusive Queue (sumQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2024-10-11 00:02:20 - RequestID:  - Started WitApplication in 3.458 seconds (process running for 3.925)
+2024-10-11 00:02:23 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 00:02:23 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 00:02:23 - RequestID:  - Completed initialization in 2 ms
+2024-10-11 00:02:23 - RequestID: 39bf30ad-dc0c-4c87-b5c8-4da71e07975e - A enviar a mensagem! (4.0 + 2.0)
+2024-10-11 00:02:23 - RequestID: 39bf30ad-dc0c-4c87-b5c8-4da71e07975e - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 00:02:23 - RequestID: 39bf30ad-dc0c-4c87-b5c8-4da71e07975e - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-68XXg0DoRJ3cYI_9jUp_vQ identity=3f181f20] started
+2024-10-11 00:02:23 - RequestID: 39bf30ad-dc0c-4c87-b5c8-4da71e07975e - Received message, the result was: 6.0
+2024-10-11 00:06:06 - RequestID:  - Starting WitApplication using Java 23 with PID 4120 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 00:06:06 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 00:06:07 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 00:06:07 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 00:06:07 - RequestID:  - Starting service [Tomcat]
+2024-10-11 00:06:07 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 00:06:07 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 00:06:07 - RequestID:  - Root WebApplicationContext: initialization completed in 1475 ms
+2024-10-11 00:06:08 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 00:06:08 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 00:06:08 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 00:06:08 - RequestID:  - Created new connection: rabbitConnectionFactory#56382bc9:0/SimpleConnection@385d819 [delegate=amqp://guest@127.0.0.1:5672/, localPort=56090]
+2024-10-11 00:06:08 - RequestID:  - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'sumQueue' in vhost '/': received 'true' but current is 'false', class-id=50, method-id=10)

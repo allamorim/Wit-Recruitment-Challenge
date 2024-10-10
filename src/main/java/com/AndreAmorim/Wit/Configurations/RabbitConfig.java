@@ -10,7 +10,7 @@ public class RabbitConfig {
     // Queue where messages will be sent (Sum messages)
     @Bean
     public Queue SumQueue() {
-        return new Queue("sumQueue", false);
+        return new Queue("sumQueue");
     }
 
 

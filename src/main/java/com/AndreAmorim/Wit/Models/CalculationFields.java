@@ -2,20 +2,24 @@ package com.AndreAmorim.Wit.Models;
 
 public class CalculationFields {
 
-    double FirstTerm;
-    double SecondTerm;
+    private double firstTerm = 0;
+    private double secondTerm = 0;
+
+    public CalculationFields() {
+
+    }
 
     public CalculationFields(double firstTerm, double secondTerm) {
-        FirstTerm = firstTerm;
-        SecondTerm = secondTerm;
+        this.firstTerm = firstTerm;
+        this.secondTerm = secondTerm;
     }
 
     public double getFirstTerm() {
-        return FirstTerm;
+        return firstTerm;
     }
 
     public double getSecondTerm() {
-        return SecondTerm;
+        return secondTerm;
     }
 
 }
