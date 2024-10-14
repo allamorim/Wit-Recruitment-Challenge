@@ -1,13 +1,11 @@
 package com.AndreAmorim.Wit.Services;
 
 import com.AndreAmorim.Wit.Models.CalculationFields;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 import org.springframework.amqp.core.Message;
-import org.springframework.amqp.core.MessageProperties;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,14 +23,12 @@ public class CalculatorService implements ICalculatorService {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    @RabbitListener(queues = "sumQueue")
+    @RabbitListener(queues = "sumQueue", returnExceptions = "true")
     @Override
     public BigDecimal Sum(Message message) throws IOException {
 
-        ObjectMapper objectMapper = new ObjectMapper();
-
         // Deserialize the JSON to the object
-        CalculationFields Fields = objectMapper.readerFor(CalculationFields.class).readValue(message.getBody());
+        CalculationFields fields = extractFields(message);
 
         //Gets the header (RequestID)
         String requestId = (String) message.getMessageProperties().getHeaders().get("requestId");
@@ -43,21 +39,19 @@ public class CalculatorService implements ICalculatorService {
         }
 
         // Calculation
-        BigDecimal result = (Fields.getFirstTerm().add(Fields.getSecondTerm()));
+        BigDecimal result = (fields.getFirstTerm().add(fields.getSecondTerm()));
 
         logger.info("Received message, the result was: {}", result);
 
         return result;
     }
 
-    @RabbitListener(queues = "subtractionQueue")
+    @RabbitListener(queues = "subtractionQueue", returnExceptions = "true")
     @Override
     public BigDecimal Subtraction(Message message) throws IOException {
 
-        ObjectMapper objectMapper = new ObjectMapper();
-
         // Deserialize the JSON to the object
-        CalculationFields Fields = objectMapper.readerFor(CalculationFields.class).readValue(message.getBody());
+        CalculationFields fields = extractFields(message);
 
         //Gets the header (RequestID)
         String requestId = (String) message.getMessageProperties().getHeaders().get("requestId");
@@ -68,21 +62,19 @@ public class CalculatorService implements ICalculatorService {
         }
 
         // Calculation
-        BigDecimal result = (Fields.getFirstTerm().subtract(Fields.getSecondTerm()));
+        BigDecimal result = (fields.getFirstTerm().subtract(fields.getSecondTerm()));
 
         logger.info("Received message, the result was: {}", result);
 
         return result;
     }
 
-    @RabbitListener(queues = "multiplicationQueue")
+    @RabbitListener(queues = "multiplicationQueue", returnExceptions = "true")
     @Override
     public BigDecimal Multiplication(Message message) throws IOException {
 
-        ObjectMapper objectMapper = new ObjectMapper();
-
         // Deserialize the JSON to the object
-        CalculationFields Fields = objectMapper.readerFor(CalculationFields.class).readValue(message.getBody());
+        CalculationFields fields = extractFields(message);
 
         //Gets the header (RequestID)
         String requestId = (String) message.getMessageProperties().getHeaders().get("requestId");
@@ -93,21 +85,18 @@ public class CalculatorService implements ICalculatorService {
         }
 
         // Calculation
-        BigDecimal result = (Fields.getFirstTerm().multiply(Fields.getSecondTerm()));
+        BigDecimal result = (fields.getFirstTerm().multiply(fields.getSecondTerm()));
 
         logger.info("Received message, the result was: {}", result);
 
         return result;
     }
 
-    @RabbitListener(queues = "divisionQueue")
+    @RabbitListener(queues = "divisionQueue", returnExceptions = "true")
     @Override
-    public BigDecimal Division(Message message) throws IOException {
-
-        ObjectMapper objectMapper = new ObjectMapper();
-
+    public BigDecimal Division(Message message) throws Exception {
         // Deserialize the JSON to the object
-        CalculationFields Fields = objectMapper.readerFor(CalculationFields.class).readValue(message.getBody());
+        CalculationFields fields = extractFields(message);
 
         //Gets the header (RequestID)
         String requestId = (String) message.getMessageProperties().getHeaders().get("requestId");
@@ -117,12 +106,24 @@ public class CalculatorService implements ICalculatorService {
             MDC.put("requestId", requestId);
         }
 
+        // Error if division by 0
+        if (fields.getSecondTerm().compareTo(BigDecimal.ZERO) == 0) {
+            throw new Exception("Cannot divide by zero");
+        }
+
         // Calculation
-        BigDecimal result = (Fields.getFirstTerm().divide(Fields.getSecondTerm(), 4, RoundingMode.HALF_EVEN));
+        BigDecimal result = (fields.getFirstTerm().divide(fields.getSecondTerm(), 4, RoundingMode.HALF_EVEN));
 
         logger.info("Received message, the result was: {}", result);
 
         return result;
+
+
+    }
+
+    public CalculationFields extractFields(Message message) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.readerFor(CalculationFields.class).readValue(message.getBody());
     }
 
 }

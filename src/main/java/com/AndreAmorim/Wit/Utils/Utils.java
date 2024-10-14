@@ -5,11 +5,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageProperties;
-
+import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 
+@Component
 public class Utils implements IUtils {
-
 
     @Override
     public Message CreateMessage(BigDecimal a, BigDecimal b, String requestId) throws JsonProcessingException {

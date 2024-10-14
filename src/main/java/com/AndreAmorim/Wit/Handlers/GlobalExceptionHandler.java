@@ -35,7 +35,7 @@ public class GlobalExceptionHandler {
         try
         {
             String ResponseError = objectMapper.writeValueAsString(response);
-            logger.info(ResponseError);
+            logger.error(ResponseError);
             return ResponseEntity
                     .status(HttpStatus.INTERNAL_SERVER_ERROR)
                     .headers(headers)
@@ -46,4 +46,5 @@ public class GlobalExceptionHandler {
                     .body(exception.getMessage());
         }
     }
+
 }

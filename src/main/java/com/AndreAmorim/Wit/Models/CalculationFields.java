@@ -7,9 +7,7 @@ public class CalculationFields {
     private BigDecimal firstTerm = BigDecimal.ZERO;
     private BigDecimal secondTerm = BigDecimal.ZERO;
 
-    public CalculationFields() {
-
-    }
+    public CalculationFields() {}
 
     public CalculationFields(BigDecimal firstTerm, BigDecimal secondTerm) {
         this.firstTerm = firstTerm;

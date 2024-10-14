@@ -2,9 +2,7 @@ package com.AndreAmorim.Wit.Controllers;
 
 import com.AndreAmorim.Wit.Models.ApiResponse;
 import com.AndreAmorim.Wit.Utils.IUtils;
-import com.AndreAmorim.Wit.Utils.Utils;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
@@ -22,10 +20,15 @@ import java.math.BigDecimal;
 public class CalculatorController {
     private static final Logger logger = LoggerFactory.getLogger(CalculatorController.class);
 
+    private final IUtils utils;
+
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    private final IUtils utils = new Utils();
+    @Autowired
+    public CalculatorController(IUtils utils) {
+        this.utils = utils;
+    }
 
     /// Sum between two numbers
     /// @param a First Value
@@ -39,7 +42,7 @@ public class CalculatorController {
         // Creates the message to send to rabbitmq
         Message message = utils.CreateMessage(a, b, MDC.get("requestId"));
 
-        logger.info("Sending message! (" + a + " + " + b + ")");
+        logger.info("Sending message! ({} + {})", a, b);
 
         // Send the message to RabbitMQ queue
         rs.setData((BigDecimal) rabbitTemplate.convertSendAndReceive("sumQueue", message));
@@ -59,7 +62,7 @@ public class CalculatorController {
         // Creates the message to send to rabbitmq
         Message message = utils.CreateMessage(a, b, MDC.get("requestId"));
 
-        logger.info("Sending message! (" + a + " - " + b + ")");
+        logger.info("Sending message! ({} - {})", a, b);
 
         // Send the message to RabbitMQ queue
         rs.setData((BigDecimal) rabbitTemplate.convertSendAndReceive("subtractionQueue", message));
@@ -79,7 +82,7 @@ public class CalculatorController {
         // Creates the message to send to rabbitmq
         Message message = utils.CreateMessage(a, b, MDC.get("requestId"));
 
-        logger.info("Sending message! (" + a + " * " + b + ")");
+        logger.info("Sending message! ({} * {})", a, b);
 
         // Send the message to RabbitMQ queue
         rs.setData((BigDecimal) rabbitTemplate.convertSendAndReceive("multiplicationQueue", message));
@@ -99,7 +102,7 @@ public class CalculatorController {
         // Creates the message to send to rabbitmq
         Message message = utils.CreateMessage(a, b, MDC.get("requestId"));
 
-        logger.info("Sending message! (" + a + " / " + b + ")");
+        logger.info("Sending message! ({} / {})", a, b);
 
         // Send the message to RabbitMQ queue
         rs.setData((BigDecimal) rabbitTemplate.convertSendAndReceive("divisionQueue", message));

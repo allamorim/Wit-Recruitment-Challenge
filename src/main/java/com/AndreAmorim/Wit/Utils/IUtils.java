@@ -2,7 +2,6 @@ package com.AndreAmorim.Wit.Utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.amqp.core.Message;
-
 import java.math.BigDecimal;
 
 public interface IUtils {
