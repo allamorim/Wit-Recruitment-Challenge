@@ -2,7 +2,6 @@ package com.AndreAmorim.Wit.Handlers;
 
 import com.AndreAmorim.Wit.Models.ApiResponse;
 import com.AndreAmorim.Wit.Models.ApiResponseDetails;
-import com.AndreAmorim.Wit.Services.CalculatorService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
-    private static final Logger logger = LoggerFactory.getLogger(CalculatorService.class);
+    private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler()
     @ResponseBody
@@ -25,7 +24,7 @@ public class GlobalExceptionHandler {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
 
-        ApiResponse<Object> response = new ApiResponse<Object>();
+        ApiResponse<Object> response = new ApiResponse<>();
 
         response.setSuccessfull(false);
 

@@ -1,1 +1,145 @@
 2024-10-14 18:22:57 - RequestID: 72b4842d-ab11-4456-baa1-9d770a30f5ed - {"data":null,"errorDetails":{"exceptionMessage":"Failed to convert value of type 'java.lang.String' to required type 'java.math.BigDecimal'; Character p is neither a decimal digit number, decimal point, nor \"e\" notation exponential mark."},"successfull":false}
+2024-10-14 18:56:20 - RequestID:  - Starting WitApplication using Java 23 with PID 10692 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-14 18:56:20 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-14 18:56:21 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-14 18:56:22 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-14 18:56:22 - RequestID:  - Starting service [Tomcat]
+2024-10-14 18:56:22 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-14 18:56:22 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-14 18:56:22 - RequestID:  - Root WebApplicationContext: initialization completed in 1251 ms
+2024-10-14 18:56:22 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-14 18:56:23 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-14 18:56:23 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-14 18:56:23 - RequestID:  - Created new connection: rabbitConnectionFactory#316acbb5:0/SimpleConnection@5e002356 [delegate=amqp://guest@127.0.0.1:5672/, localPort=50783]
+2024-10-14 18:56:23 - RequestID:  - Started WitApplication in 3.061 seconds (process running for 3.475)
+2024-10-14 18:56:42 - RequestID:  - Starting WitApplication using Java 23 with PID 25796 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-14 18:56:42 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-14 18:56:43 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-14 18:56:43 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-14 18:56:43 - RequestID:  - Starting service [Tomcat]
+2024-10-14 18:56:43 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-14 18:56:43 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-14 18:56:43 - RequestID:  - Root WebApplicationContext: initialization completed in 1017 ms
+2024-10-14 18:56:43 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-14 18:56:43 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-14 18:56:43 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-14 18:56:43 - RequestID:  - Created new connection: rabbitConnectionFactory#5583098b:0/SimpleConnection@5e002356 [delegate=amqp://guest@127.0.0.1:5672/, localPort=50792]
+2024-10-14 18:56:43 - RequestID:  - Started WitApplication in 2.341 seconds (process running for 2.685)
+2024-10-14 18:57:38 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-14 18:57:38 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-14 18:57:38 - RequestID:  - Completed initialization in 1 ms
+2024-10-14 18:57:38 - RequestID: 12984950-adf5-4e9d-9484-6531406e359f - {"data":null,"successfull":false,"errorDetails":{"exceptionMessage":"Failed to convert value of type 'java.lang.String' to required type 'java.math.BigDecimal'; Character p is neither a decimal digit number, decimal point, nor \"e\" notation exponential mark."}}
+2024-10-14 18:57:42 - RequestID: da1de339-6144-4cbe-8908-5be5307e9e42 - A enviar a mensagem! (1888.5 + 1112.5)
+2024-10-14 18:57:42 - RequestID: da1de339-6144-4cbe-8908-5be5307e9e42 - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-14 18:57:42 - RequestID: da1de339-6144-4cbe-8908-5be5307e9e42 - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-Qfq-3j-lqMy1k0p60ni_gg identity=13ce5ba0] started
+2024-10-14 18:57:42 - RequestID: da1de339-6144-4cbe-8908-5be5307e9e42 - Received message, the result was: 3001.0
+2024-10-14 19:16:00 - RequestID:  - Starting WitApplication using Java 23 with PID 15800 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-14 19:16:00 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-14 19:16:01 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-14 19:16:01 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-14 19:16:01 - RequestID:  - Starting service [Tomcat]
+2024-10-14 19:16:01 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-14 19:16:01 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-14 19:16:01 - RequestID:  - Root WebApplicationContext: initialization completed in 1159 ms
+2024-10-14 19:16:02 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-14 19:16:02 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-14 19:16:02 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-14 19:16:02 - RequestID:  - Created new connection: rabbitConnectionFactory#316acbb5:0/SimpleConnection@443a53df [delegate=amqp://guest@127.0.0.1:5672/, localPort=51988]
+2024-10-14 19:16:02 - RequestID:  - Started WitApplication in 2.739 seconds (process running for 3.072)
+2024-10-14 19:19:32 - RequestID:  - Starting WitApplication using Java 23 with PID 26596 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-14 19:19:32 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-14 19:19:34 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-14 19:19:34 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-14 19:19:34 - RequestID:  - Starting service [Tomcat]
+2024-10-14 19:19:34 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-14 19:19:34 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-14 19:19:34 - RequestID:  - Root WebApplicationContext: initialization completed in 1084 ms
+2024-10-14 19:19:34 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-14 19:19:34 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-14 19:19:34 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-14 19:19:34 - RequestID:  - Created new connection: rabbitConnectionFactory#5583098b:0/SimpleConnection@7f3fc42f [delegate=amqp://guest@127.0.0.1:5672/, localPort=52192]
+2024-10-14 19:19:34 - RequestID:  - Started WitApplication in 2.476 seconds (process running for 2.815)
+2024-10-14 19:19:38 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-14 19:19:38 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-14 19:19:38 - RequestID:  - Completed initialization in 1 ms
+2024-10-14 19:19:38 - RequestID: 51cbf29c-6773-4a10-b6f3-207cf33d25c5 - A enviar a mensagem! (1888.5 + 1112.5)
+2024-10-14 19:19:38 - RequestID: 51cbf29c-6773-4a10-b6f3-207cf33d25c5 - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-14 19:19:38 - RequestID: 51cbf29c-6773-4a10-b6f3-207cf33d25c5 - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-BUgfqU94-FIyxZmS96_Z-A identity=424cbafd] started
+2024-10-14 19:19:38 - RequestID: 51cbf29c-6773-4a10-b6f3-207cf33d25c5 - Received message, the result was: 3001.0
+2024-10-14 19:20:50 - RequestID: 8b60929d-1375-4f4e-93fa-47dafefa0058 - A enviar a mensagem! (1888.5 + 1112.5)
+2024-10-14 19:20:50 - RequestID: 8b60929d-1375-4f4e-93fa-47dafefa0058 - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-C4V4Xuc48DFL8nlnE0xJcA identity=3dd649c6] started
+2024-10-14 19:20:50 - RequestID: 8b60929d-1375-4f4e-93fa-47dafefa0058 - Received message, the result was: 776.0
+2024-10-14 19:21:00 - RequestID: f54ee74c-33f4-4f7d-8499-1b2154cf2431 - A enviar a mensagem! (100 + 5)
+2024-10-14 19:21:00 - RequestID: f54ee74c-33f4-4f7d-8499-1b2154cf2431 - Received message, the result was: 95
+2024-10-14 19:21:10 - RequestID: 2c8c865e-1712-464a-a4bd-87faad48590f - A enviar a mensagem! (100 + 5)
+2024-10-14 19:21:10 - RequestID: 2c8c865e-1712-464a-a4bd-87faad48590f - Received message, the result was: 105
+2024-10-14 19:21:23 - RequestID: 08fb7cf1-34b9-48ce-aba8-c1bf6bbe565c - A enviar a mensagem! (100 + 5)
+2024-10-14 19:21:23 - RequestID: 08fb7cf1-34b9-48ce-aba8-c1bf6bbe565c - Received message, the result was: 500
+2024-10-14 19:21:37 - RequestID: 742ae8a2-cd53-4040-815c-ad5c92cf3e65 - A enviar a mensagem! (100 + 5)
+2024-10-14 19:21:37 - RequestID: 742ae8a2-cd53-4040-815c-ad5c92cf3e65 - Received message, the result was: 20.00
+2024-10-14 19:21:40 - RequestID: 88ee6554-f3e8-4deb-b60e-5d83d481ee27 - A enviar a mensagem! (100 + 5.555)
+2024-10-14 19:21:40 - RequestID: 88ee6554-f3e8-4deb-b60e-5d83d481ee27 - Received message, the result was: 18.00
+2024-10-14 19:21:44 - RequestID: 18af33c5-fd48-41b1-95b7-6990b51565c2 - A enviar a mensagem! (100 + 5.62)
+2024-10-14 19:21:44 - RequestID: 18af33c5-fd48-41b1-95b7-6990b51565c2 - Received message, the result was: 17.79
+2024-10-14 19:21:46 - RequestID: ce7cc03c-3441-4886-b3a4-797218763ab8 - A enviar a mensagem! (100 + 5.621)
+2024-10-14 19:21:46 - RequestID: ce7cc03c-3441-4886-b3a4-797218763ab8 - Received message, the result was: 17.79
+2024-10-14 19:21:51 - RequestID: 2d38d694-08d7-47bf-939b-ae6adee7f310 - A enviar a mensagem! (100 + 5.22555)
+2024-10-14 19:21:51 - RequestID: 2d38d694-08d7-47bf-939b-ae6adee7f310 - Received message, the result was: 522.55500
+2024-10-14 19:22:16 - RequestID:  - Starting WitApplication using Java 23 with PID 10692 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-14 19:22:16 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-14 19:22:18 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-14 19:22:18 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-14 19:22:18 - RequestID:  - Starting service [Tomcat]
+2024-10-14 19:22:18 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-14 19:22:18 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-14 19:22:18 - RequestID:  - Root WebApplicationContext: initialization completed in 1536 ms
+2024-10-14 19:22:18 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-14 19:22:18 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-14 19:22:18 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-14 19:22:18 - RequestID:  - Created new connection: rabbitConnectionFactory#5583098b:0/SimpleConnection@25a1a012 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52365]
+2024-10-14 19:22:18 - RequestID:  - Started WitApplication in 3.011 seconds (process running for 3.337)
+2024-10-14 19:22:20 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-14 19:22:20 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-14 19:22:20 - RequestID:  - Completed initialization in 1 ms
+2024-10-14 19:22:21 - RequestID: 446a2711-2720-4064-a674-f4f250014c12 - A enviar a mensagem! (100 + 5.62)
+2024-10-14 19:22:21 - RequestID: 446a2711-2720-4064-a674-f4f250014c12 - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-14 19:22:21 - RequestID: 446a2711-2720-4064-a674-f4f250014c12 - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-7B4WAQB_tBRYsNsp8aKCKQ identity=7d15d5d9] started
+2024-10-14 19:22:21 - RequestID: 446a2711-2720-4064-a674-f4f250014c12 - Received message, the result was: 18
+2024-10-14 19:22:24 - RequestID: e033fd4e-60e2-4cd4-9f03-cebbf49336ef - A enviar a mensagem! (100 + 5.62555)
+2024-10-14 19:22:24 - RequestID: e033fd4e-60e2-4cd4-9f03-cebbf49336ef - Received message, the result was: 18
+2024-10-14 19:22:31 - RequestID: 315678e7-af03-4cc0-8348-5ab668b81b86 - A enviar a mensagem! (100 + 5)
+2024-10-14 19:22:31 - RequestID: 315678e7-af03-4cc0-8348-5ab668b81b86 - Received message, the result was: 20
+2024-10-14 19:22:34 - RequestID: 876b1ef4-c4ef-4dba-8a70-309f65075a6a - A enviar a mensagem! (100 + 5.5)
+2024-10-14 19:22:34 - RequestID: 876b1ef4-c4ef-4dba-8a70-309f65075a6a - Received message, the result was: 18
+2024-10-14 19:22:57 - RequestID:  - Starting WitApplication using Java 23 with PID 2764 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-14 19:22:57 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-14 19:22:58 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-14 19:22:58 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-14 19:22:58 - RequestID:  - Starting service [Tomcat]
+2024-10-14 19:22:58 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-14 19:22:58 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-14 19:22:58 - RequestID:  - Root WebApplicationContext: initialization completed in 1049 ms
+2024-10-14 19:22:58 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-14 19:22:58 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-14 19:22:58 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-14 19:22:58 - RequestID:  - Created new connection: rabbitConnectionFactory#316acbb5:0/SimpleConnection@261de205 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52403]
+2024-10-14 19:22:59 - RequestID:  - Started WitApplication in 2.395 seconds (process running for 2.709)
+2024-10-14 19:23:04 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-14 19:23:04 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-14 19:23:04 - RequestID:  - Completed initialization in 2 ms
+2024-10-14 19:23:04 - RequestID: 8d772668-7448-4368-81b0-6fbe1302801f - A enviar a mensagem! (100 + 5.5)
+2024-10-14 19:23:04 - RequestID: 8d772668-7448-4368-81b0-6fbe1302801f - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-14 19:23:04 - RequestID: 8d772668-7448-4368-81b0-6fbe1302801f - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-ecKxGzZwd2QGv10vkbHSKw identity=47424b5b] started
+2024-10-14 19:23:04 - RequestID: 8d772668-7448-4368-81b0-6fbe1302801f - Received message, the result was: 18.1818
+2024-10-14 19:23:08 - RequestID: d9fde812-9076-4a38-830a-f1cc514ba873 - A enviar a mensagem! (100 + 5.1)
+2024-10-14 19:23:08 - RequestID: d9fde812-9076-4a38-830a-f1cc514ba873 - Received message, the result was: 19.6078
+2024-10-14 19:23:12 - RequestID: 8e960ed9-184c-4929-a858-0de6c6a209f6 - A enviar a mensagem! (100 + 5.5)
+2024-10-14 19:23:12 - RequestID: 8e960ed9-184c-4929-a858-0de6c6a209f6 - Received message, the result was: 18.1818
+2024-10-14 19:23:16 - RequestID: 8ebab318-64e7-40a6-ae38-be3cd0d2b38c - A enviar a mensagem! (100 + 5.8)
+2024-10-14 19:23:16 - RequestID: 8ebab318-64e7-40a6-ae38-be3cd0d2b38c - Received message, the result was: 17.2414
+2024-10-14 19:23:19 - RequestID: fa1381fc-e1f0-40d1-81c9-ec7ebc4b6597 - A enviar a mensagem! (100 + 5)
+2024-10-14 19:23:19 - RequestID: fa1381fc-e1f0-40d1-81c9-ec7ebc4b6597 - Received message, the result was: 20.0000
+2024-10-14 19:23:21 - RequestID: 260384de-15de-4709-9eb0-5faf7fce40ac - A enviar a mensagem! (100 + 5)
+2024-10-14 19:23:21 - RequestID: 260384de-15de-4709-9eb0-5faf7fce40ac - Received message, the result was: 105
+2024-10-14 19:23:24 - RequestID: 048d29ed-8da7-4da0-a169-8ebf2806a096 - A enviar a mensagem! (100 + 5)
+2024-10-14 19:23:24 - RequestID: 048d29ed-8da7-4da0-a169-8ebf2806a096 - Received message, the result was: 95

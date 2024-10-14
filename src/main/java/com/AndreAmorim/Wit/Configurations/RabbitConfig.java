@@ -7,11 +7,24 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitConfig {
 
-    // Queue where messages will be sent (Sum messages)
     @Bean
     public Queue SumQueue() {
         return new Queue("sumQueue");
     }
 
+    @Bean
+    public Queue SubtractionQueue() {
+        return new Queue("subtractionQueue");
+    }
+
+    @Bean
+    public Queue DivisionQueue() {
+        return new Queue("divisionQueue");
+    }
+
+    @Bean
+    public Queue MultiplicationQueue() {
+        return new Queue("multiplicationQueue");
+    }
 
 }
