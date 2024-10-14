@@ -1,24 +1,26 @@
 package com.AndreAmorim.Wit.Models;
 
+import java.math.BigDecimal;
+
 public class CalculationFields {
 
-    private double firstTerm = 0;
-    private double secondTerm = 0;
+    private BigDecimal firstTerm = BigDecimal.ZERO;
+    private BigDecimal secondTerm = BigDecimal.ZERO;
 
     public CalculationFields() {
 
     }
 
-    public CalculationFields(double firstTerm, double secondTerm) {
+    public CalculationFields(BigDecimal firstTerm, BigDecimal secondTerm) {
         this.firstTerm = firstTerm;
         this.secondTerm = secondTerm;
     }
 
-    public double getFirstTerm() {
+    public BigDecimal getFirstTerm() {
         return firstTerm;
     }
 
-    public double getSecondTerm() {
+    public BigDecimal getSecondTerm() {
         return secondTerm;
     }
 

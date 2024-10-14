@@ -1,0 +1,516 @@
+2024-10-11 00:02:17 - RequestID:  - Starting WitApplication using Java 23 with PID 1424 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 00:02:17 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 00:02:19 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 00:02:19 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 00:02:19 - RequestID:  - Starting service [Tomcat]
+2024-10-11 00:02:19 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 00:02:19 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 00:02:19 - RequestID:  - Root WebApplicationContext: initialization completed in 1647 ms
+2024-10-11 00:02:20 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 00:02:20 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 00:02:20 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 00:02:20 - RequestID:  - Created new connection: rabbitConnectionFactory#56f730b2:0/SimpleConnection@71560f51 [delegate=amqp://guest@127.0.0.1:5672/, localPort=55972]
+2024-10-11 00:02:20 - RequestID:  - Auto-declaring a non-durable, auto-delete, or exclusive Queue (sumQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2024-10-11 00:02:20 - RequestID:  - Started WitApplication in 3.458 seconds (process running for 3.925)
+2024-10-11 00:02:23 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 00:02:23 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 00:02:23 - RequestID:  - Completed initialization in 2 ms
+2024-10-11 00:02:23 - RequestID: 39bf30ad-dc0c-4c87-b5c8-4da71e07975e - A enviar a mensagem! (4.0 + 2.0)
+2024-10-11 00:02:23 - RequestID: 39bf30ad-dc0c-4c87-b5c8-4da71e07975e - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 00:02:23 - RequestID: 39bf30ad-dc0c-4c87-b5c8-4da71e07975e - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-68XXg0DoRJ3cYI_9jUp_vQ identity=3f181f20] started
+2024-10-11 00:02:23 - RequestID: 39bf30ad-dc0c-4c87-b5c8-4da71e07975e - Received message, the result was: 6.0
+2024-10-11 00:06:06 - RequestID:  - Starting WitApplication using Java 23 with PID 4120 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 00:06:06 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 00:06:07 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 00:06:07 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 00:06:07 - RequestID:  - Starting service [Tomcat]
+2024-10-11 00:06:07 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 00:06:07 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 00:06:07 - RequestID:  - Root WebApplicationContext: initialization completed in 1475 ms
+2024-10-11 00:06:08 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 00:06:08 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 00:06:08 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 00:06:08 - RequestID:  - Created new connection: rabbitConnectionFactory#56382bc9:0/SimpleConnection@385d819 [delegate=amqp://guest@127.0.0.1:5672/, localPort=56090]
+2024-10-11 00:06:08 - RequestID:  - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'sumQueue' in vhost '/': received 'true' but current is 'false', class-id=50, method-id=10)
+2024-10-11 14:12:51 - RequestID:  - Starting WitApplication using Java 23 with PID 12476 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:12:51 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:12:52 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:12:52 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:12:52 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:12:52 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:12:53 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:12:53 - RequestID:  - Root WebApplicationContext: initialization completed in 1701 ms
+2024-10-11 14:12:53 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:12:54 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:12:54 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:12:54 - RequestID:  - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:12:54 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:12:54 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2249)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2222)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2202)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1960)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1924)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1479)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1320)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584)
+	... 12 common frames omitted
+2024-10-11 14:12:54 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:12:54 - RequestID:  - Started WitApplication in 4.008 seconds (process running for 4.566)
+2024-10-11 14:12:59 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:12:59 - RequestID:  - Restarting Consumer@1cbc1dde: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:12:59 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:12:59 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:12:59 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:04 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:04 - RequestID:  - Restarting Consumer@4b03a229: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:04 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:04 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:04 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:09 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:09 - RequestID:  - Restarting Consumer@537e02c4: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:09 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:09 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:09 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:14 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:14 - RequestID:  - Restarting Consumer@4047e3d5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:14 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:14 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:14 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:19 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:19 - RequestID:  - Restarting Consumer@11dcc1a9: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:19 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:19 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:19 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:24 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:24 - RequestID:  - Restarting Consumer@41527ec3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:24 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:24 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:24 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:30 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:30 - RequestID:  - Restarting Consumer@675d3d53: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:30 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:30 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:30 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:35 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:35 - RequestID:  - Restarting Consumer@66b196ba: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:35 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:35 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:35 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:40 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:40 - RequestID:  - Restarting Consumer@fbd626: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:40 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:40 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:40 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:45 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:45 - RequestID:  - Restarting Consumer@4d274bfd: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:45 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:45 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:45 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:50 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:50 - RequestID:  - Restarting Consumer@69740eb7: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:50 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:50 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:50 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:55 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:13:55 - RequestID:  - Restarting Consumer@2c2cfcad: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:13:55 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:13:55 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:13:55 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:01 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:01 - RequestID:  - Restarting Consumer@1dd3bce8: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:01 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:01 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:01 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:06 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:06 - RequestID:  - Restarting Consumer@311ce66f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:06 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:06 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:06 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:11 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:11 - RequestID:  - Restarting Consumer@6a24ca66: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:11 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:11 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:11 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:16 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:16 - RequestID:  - Restarting Consumer@3c6079cd: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:16 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:16 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:16 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:21 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:21 - RequestID:  - Restarting Consumer@45c0afeb: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:21 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:21 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:21 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:26 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:26 - RequestID:  - Restarting Consumer@54105820: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:26 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:26 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:26 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:31 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:31 - RequestID:  - Restarting Consumer@44c4b6ac: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:31 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:31 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:31 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:36 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:36 - RequestID:  - Restarting Consumer@42f729c1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:36 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:36 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:36 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:42 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:42 - RequestID:  - Restarting Consumer@71d9c0f4: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:42 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:42 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:42 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:47 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:47 - RequestID:  - Restarting Consumer@3db8e78d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:47 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:47 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:47 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:52 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:52 - RequestID:  - Restarting Consumer@5b5959ac: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:52 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:52 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:52 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:57 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:14:57 - RequestID:  - Restarting Consumer@680aa2db: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:14:57 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:14:57 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:14:57 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:02 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:02 - RequestID:  - Restarting Consumer@65cc0841: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:02 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:02 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:02 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:07 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:07 - RequestID:  - Restarting Consumer@21827a95: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:07 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:07 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:07 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:12 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:12 - RequestID:  - Restarting Consumer@145a8bc1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:12 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:12 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:12 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:17 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:17 - RequestID:  - Restarting Consumer@4bf73b2e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:17 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:17 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:17 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:23 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:23 - RequestID:  - Restarting Consumer@771eab71: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:23 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:23 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:23 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:28 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:28 - RequestID:  - Restarting Consumer@7f012e07: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:28 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:28 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:28 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:33 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:33 - RequestID:  - Restarting Consumer@7d559d71: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:33 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:33 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:33 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:38 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:38 - RequestID:  - Restarting Consumer@2d527b8e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:38 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:38 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:38 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:43 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:43 - RequestID:  - Restarting Consumer@3723ee3c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:43 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:43 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:43 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:48 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:48 - RequestID:  - Restarting Consumer@448a8bf5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:48 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:48 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:48 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:53 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:53 - RequestID:  - Restarting Consumer@69f3bb98: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:53 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:53 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:53 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:59 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:15:59 - RequestID:  - Restarting Consumer@e14bf5f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:15:59 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:15:59 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:15:59 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:04 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:04 - RequestID:  - Restarting Consumer@4afedcd3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:04 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:04 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:04 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:09 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:09 - RequestID:  - Restarting Consumer@6ff9b761: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:09 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:09 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:09 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:14 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:14 - RequestID:  - Restarting Consumer@5d9655b6: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:14 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:14 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:14 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:19 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:19 - RequestID:  - Restarting Consumer@14d18438: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:19 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:19 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:19 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:24 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:24 - RequestID:  - Restarting Consumer@15dcdacf: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:24 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:24 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:24 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:29 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:29 - RequestID:  - Restarting Consumer@2764c49: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:29 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:29 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:29 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:34 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:34 - RequestID:  - Restarting Consumer@71d22538: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:34 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:35 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:35 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:40 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:40 - RequestID:  - Restarting Consumer@3b3b23f7: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:40 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:40 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:40 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:45 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:45 - RequestID:  - Restarting Consumer@56f658a7: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:45 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:45 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:45 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:50 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:50 - RequestID:  - Restarting Consumer@50872e61: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:50 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:50 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:50 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:55 - RequestID:  - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2024-10-11 14:16:55 - RequestID:  - Restarting Consumer@759b555b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:16:55 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:16:55 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:16:55 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:17:00 - RequestID:  - Restarting Consumer@36e0abf9: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:17:00 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:17:00 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:17:00 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:17:05 - RequestID:  - Restarting Consumer@6c1d4d99: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:17:05 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:17:05 - RequestID:  - Failed to check/redeclare auto-delete queue(s).
+2024-10-11 14:17:05 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:17:10 - RequestID:  - Restarting Consumer@3207d8a9: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-11 14:17:10 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:17:11 - RequestID:  - Created new connection: rabbitConnectionFactory#5377414a:101/SimpleConnection@566c6ed2 [delegate=amqp://guest@127.0.0.1:5672/, localPort=58542]
+2024-10-11 14:19:26 - RequestID:  - Starting WitApplication using Java 23 with PID 21128 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:19:26 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:19:27 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:19:27 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:19:27 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:19:27 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:19:27 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:19:27 - RequestID:  - Root WebApplicationContext: initialization completed in 1482 ms
+2024-10-11 14:19:28 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:19:29 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:19:29 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:19:29 - RequestID:  - Created new connection: rabbitConnectionFactory#18a25bbd:0/SimpleConnection@261de205 [delegate=amqp://guest@127.0.0.1:5672/, localPort=58568]
+2024-10-11 14:19:29 - RequestID:  - Started WitApplication in 3.707 seconds (process running for 4.166)
+2024-10-11 14:22:25 - RequestID:  - Starting WitApplication using Java 23 with PID 9992 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:22:25 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:22:26 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:22:26 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:22:26 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:22:26 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:22:26 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:22:26 - RequestID:  - Root WebApplicationContext: initialization completed in 1325 ms
+2024-10-11 14:22:27 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:22:27 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:22:27 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:22:27 - RequestID:  - Created new connection: rabbitConnectionFactory#6ba060f3:0/SimpleConnection@353f472a [delegate=amqp://guest@127.0.0.1:5672/, localPort=58696]
+2024-10-11 14:22:27 - RequestID:  - Started WitApplication in 3.401 seconds (process running for 3.937)
+2024-10-11 14:22:30 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 14:22:30 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 14:22:30 - RequestID:  - Completed initialization in 1 ms
+2024-10-11 14:22:30 - RequestID: ced124d5-ae07-4ef3-bb20-5fec1b7def78 - A enviar a mensagem! (4.0 + 2.0)
+2024-10-11 14:22:30 - RequestID: ced124d5-ae07-4ef3-bb20-5fec1b7def78 - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 14:22:30 - RequestID: ced124d5-ae07-4ef3-bb20-5fec1b7def78 - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-7rq_3xluaGf37ljbM_cBLQ identity=1c24f3fb] started
+2024-10-11 14:22:30 - RequestID: ced124d5-ae07-4ef3-bb20-5fec1b7def78 - Received message, the result was: 6.0
+2024-10-11 14:22:44 - RequestID: db7ba56d-7ec0-4b85-ac21-b38038f6e789 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "5p"]
+2024-10-11 14:23:15 - RequestID: 66d6e376-bb89-4272-acfc-7f30a06425f4 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "5p"]
+2024-10-11 14:24:25 - RequestID:  - Starting WitApplication using Java 23 with PID 13320 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:24:25 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:24:26 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:24:26 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:24:26 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:24:26 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:24:31 - RequestID:  - Starting WitApplication using Java 23 with PID 5600 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:24:31 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:24:33 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:24:33 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:24:33 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:24:33 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:24:33 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:24:33 - RequestID:  - Root WebApplicationContext: initialization completed in 1497 ms
+2024-10-11 14:24:34 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:24:34 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:24:34 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:24:34 - RequestID:  - Created new connection: rabbitConnectionFactory#5e5aafc6:0/SimpleConnection@3434a4f0 [delegate=amqp://guest@127.0.0.1:5672/, localPort=58821]
+2024-10-11 14:24:34 - RequestID:  - Started WitApplication in 3.483 seconds (process running for 3.882)
+2024-10-11 14:24:40 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 14:24:40 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 14:24:40 - RequestID:  - Completed initialization in 1 ms
+2024-10-11 14:25:11 - RequestID: 7b8591fd-718f-492a-9e0e-a36d7359f662 - A enviar a mensagem! (5.0 + 2.0)
+2024-10-11 14:25:11 - RequestID: 7b8591fd-718f-492a-9e0e-a36d7359f662 - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 14:25:11 - RequestID: 7b8591fd-718f-492a-9e0e-a36d7359f662 - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-iKOSxeGXKSiTewTI2MnolA identity=7972df6a] started
+2024-10-11 14:25:11 - RequestID: 7b8591fd-718f-492a-9e0e-a36d7359f662 - Received message, the result was: 7.0
+2024-10-11 14:28:55 - RequestID:  - Starting WitApplication using Java 23 with PID 6428 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:28:55 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:28:57 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:28:57 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:28:57 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:28:57 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:28:57 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:28:57 - RequestID:  - Root WebApplicationContext: initialization completed in 1547 ms
+2024-10-11 14:28:58 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:28:58 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:28:58 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:28:58 - RequestID:  - Created new connection: rabbitConnectionFactory#5e5aafc6:0/SimpleConnection@79afa369 [delegate=amqp://guest@127.0.0.1:5672/, localPort=58952]
+2024-10-11 14:28:58 - RequestID:  - Started WitApplication in 3.627 seconds (process running for 4.026)
+2024-10-11 14:29:00 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 14:29:00 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 14:29:00 - RequestID:  - Completed initialization in 1 ms
+2024-10-11 14:29:00 - RequestID: 80c76602-40a7-4a85-b867-c55e81a4e72b - A enviar a mensagem! (5.0 + 2.0)
+2024-10-11 14:29:00 - RequestID: 80c76602-40a7-4a85-b867-c55e81a4e72b - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 14:29:00 - RequestID: 80c76602-40a7-4a85-b867-c55e81a4e72b - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-PU_wTR4Hpilcb8szDJWOQA identity=61401c72] started
+2024-10-11 14:29:00 - RequestID: 80c76602-40a7-4a85-b867-c55e81a4e72b - Received message, the result was: 7.0
+2024-10-11 14:31:12 - RequestID:  - Starting WitApplication using Java 23 with PID 15832 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:31:12 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:31:14 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:31:14 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:31:14 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:31:14 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:31:14 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:31:14 - RequestID:  - Root WebApplicationContext: initialization completed in 1378 ms
+2024-10-11 14:31:15 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:31:15 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:31:15 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:31:15 - RequestID:  - Created new connection: rabbitConnectionFactory#542f6803:0/SimpleConnection@4b325930 [delegate=amqp://guest@127.0.0.1:5672/, localPort=58994]
+2024-10-11 14:31:15 - RequestID:  - Started WitApplication in 3.697 seconds (process running for 4.113)
+2024-10-11 14:31:18 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 14:31:18 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 14:31:18 - RequestID:  - Completed initialization in 1 ms
+2024-10-11 14:33:40 - RequestID:  - Starting WitApplication using Java 23 with PID 5888 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:33:40 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:33:42 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:33:42 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:33:42 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:33:42 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:33:42 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:33:42 - RequestID:  - Root WebApplicationContext: initialization completed in 1322 ms
+2024-10-11 14:33:43 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:33:43 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:33:43 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:33:43 - RequestID:  - Created new connection: rabbitConnectionFactory#53a84ff4:0/SimpleConnection@4f820f42 [delegate=amqp://guest@127.0.0.1:5672/, localPort=59029]
+2024-10-11 14:33:43 - RequestID:  - Started WitApplication in 3.156 seconds (process running for 3.627)
+2024-10-11 14:33:44 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 14:33:44 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 14:33:44 - RequestID:  - Completed initialization in 1 ms
+2024-10-11 14:33:52 - RequestID: 0b55a46c-55f4-4f0b-afd4-f26333c5675b - A enviar a mensagem! (5.0 + 2.0)
+2024-10-11 14:33:52 - RequestID: 0b55a46c-55f4-4f0b-afd4-f26333c5675b - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 14:33:52 - RequestID: 0b55a46c-55f4-4f0b-afd4-f26333c5675b - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-c5rqKn9Wh3eo5Hg95NdyfQ identity=65168cd6] started
+2024-10-11 14:33:52 - RequestID: 0b55a46c-55f4-4f0b-afd4-f26333c5675b - Received message, the result was: 7.0
+2024-10-11 14:35:45 - RequestID: fca26f7c-592b-42f1-94de-ed73d3387617 - A enviar a mensagem! (5.0 + 2.0)
+2024-10-11 14:35:45 - RequestID: fca26f7c-592b-42f1-94de-ed73d3387617 - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-jck6GP5R4BDnURPPhDsqqQ identity=a1353ca] started
+2024-10-11 14:35:45 - RequestID: fca26f7c-592b-42f1-94de-ed73d3387617 - Received message, the result was: 7.0
+2024-10-11 14:37:59 - RequestID:  - Starting WitApplication using Java 23 with PID 8944 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:37:59 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:38:05 - RequestID:  - Starting WitApplication using Java 23 with PID 15684 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:38:05 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:38:07 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:38:07 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:38:07 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:38:07 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:38:07 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:38:07 - RequestID:  - Root WebApplicationContext: initialization completed in 1655 ms
+2024-10-11 14:38:08 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:38:08 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:38:08 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:38:08 - RequestID:  - Created new connection: rabbitConnectionFactory#5e5aafc6:0/SimpleConnection@3434a4f0 [delegate=amqp://guest@127.0.0.1:5672/, localPort=59124]
+2024-10-11 14:38:08 - RequestID:  - Started WitApplication in 3.682 seconds (process running for 4.049)
+2024-10-11 14:38:29 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 14:38:29 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 14:38:29 - RequestID:  - Completed initialization in 1 ms
+2024-10-11 14:38:29 - RequestID: ab00df3e-1bdd-422d-af18-4bb4492d006c - {"data":null,"successfull":false,"errorDetails":{"exceptionMessage":"Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: \"1111r\""}}
+2024-10-11 14:38:43 - RequestID: 56b1d998-9327-4f3f-b064-ef005bd0b92e - A enviar a mensagem! (1888.0 + 1111.0)
+2024-10-11 14:38:43 - RequestID: 56b1d998-9327-4f3f-b064-ef005bd0b92e - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 14:38:43 - RequestID: 56b1d998-9327-4f3f-b064-ef005bd0b92e - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-qG-392mh1NrBptI5qHdgqg identity=29fecc] started
+2024-10-11 14:38:43 - RequestID: 56b1d998-9327-4f3f-b064-ef005bd0b92e - Received message, the result was: 2999.0
+2024-10-11 14:45:52 - RequestID:  - Starting WitApplication using Java 23 with PID 25476 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:45:52 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:45:54 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:45:54 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:45:54 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:45:54 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:45:54 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:45:54 - RequestID:  - Root WebApplicationContext: initialization completed in 1321 ms
+2024-10-11 14:45:55 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:45:55 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:45:55 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:45:55 - RequestID:  - Created new connection: rabbitConnectionFactory#17aa8a11:0/SimpleConnection@7af0affa [delegate=amqp://guest@127.0.0.1:5672/, localPort=59284]
+2024-10-11 14:45:55 - RequestID:  - Started WitApplication in 3.072 seconds (process running for 3.543)
+2024-10-11 14:45:58 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 14:45:58 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 14:45:58 - RequestID:  - Completed initialization in 0 ms
+2024-10-11 14:45:58 - RequestID: bf4f0fcf-257f-4286-bd95-4db52b4cfc9a - A enviar a mensagem! (1888 + 1111)
+2024-10-11 14:45:58 - RequestID: bf4f0fcf-257f-4286-bd95-4db52b4cfc9a - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 14:45:58 - RequestID: bf4f0fcf-257f-4286-bd95-4db52b4cfc9a - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-2pMElfWvcGAVaR2GJfUYiA identity=6c8d6572] started
+2024-10-11 14:45:58 - RequestID: bf4f0fcf-257f-4286-bd95-4db52b4cfc9a - Received message, the result was: 2999
+2024-10-11 14:46:05 - RequestID: 1bda6086-66d6-48c5-ad8f-428f6b359359 - {"data":null,"successfull":false,"errorDetails":{"exceptionMessage":"Failed to convert value of type 'java.lang.String' to required type 'java.math.BigDecimal'; Character , is neither a decimal digit number, decimal point, nor \"e\" notation exponential mark."}}
+2024-10-11 14:46:09 - RequestID: 1e172fb3-8067-42d1-8f97-d157f112f211 - A enviar a mensagem! (1888 + 1111.5)
+2024-10-11 14:46:09 - RequestID: 1e172fb3-8067-42d1-8f97-d157f112f211 - Received message, the result was: 2999.5
+2024-10-11 14:46:22 - RequestID: 040fbda7-46c1-4fa3-a6bb-60aea7d5f77a - A enviar a mensagem! (1888.5 + 1112.5)
+2024-10-11 14:46:22 - RequestID: 040fbda7-46c1-4fa3-a6bb-60aea7d5f77a - Received message, the result was: 3001.0
+2024-10-11 14:53:34 - RequestID:  - Starting WitApplication using Java 23 with PID 27144 (C:\Users\allamorim\Downloads\Wit_2\Wit\build\classes\java\main started by allamorim in C:\Users\allamorim\Downloads\Wit_2\Wit)
+2024-10-11 14:53:34 - RequestID:  - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 14:53:35 - RequestID:  - Tomcat initialized with port 8080 (http)
+2024-10-11 14:53:35 - RequestID:  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:53:35 - RequestID:  - Starting service [Tomcat]
+2024-10-11 14:53:35 - RequestID:  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-11 14:53:36 - RequestID:  - Initializing Spring embedded WebApplicationContext
+2024-10-11 14:53:36 - RequestID:  - Root WebApplicationContext: initialization completed in 1401 ms
+2024-10-11 14:53:36 - RequestID:  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-11 14:53:36 - RequestID:  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-11 14:53:36 - RequestID:  - Attempting to connect to: [localhost:5672]
+2024-10-11 14:53:36 - RequestID:  - Created new connection: rabbitConnectionFactory#7ce85af2:0/SimpleConnection@4b325930 [delegate=amqp://guest@127.0.0.1:5672/, localPort=59452]
+2024-10-11 14:53:36 - RequestID:  - Started WitApplication in 2.988 seconds (process running for 3.334)
+2024-10-11 14:53:38 - RequestID:  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11 14:53:38 - RequestID:  - Initializing Servlet 'dispatcherServlet'
+2024-10-11 14:53:38 - RequestID:  - Completed initialization in 1 ms
+2024-10-11 14:53:39 - RequestID: 5850e1cb-7b62-4a09-a61c-c8fbaca4938e - A enviar a mensagem! (1888.5 + 1112.5)
+2024-10-11 14:53:39 - RequestID: 5850e1cb-7b62-4a09-a61c-c8fbaca4938e - Container initialized for queues: [amq.rabbitmq.reply-to]
+2024-10-11 14:53:39 - RequestID: 5850e1cb-7b62-4a09-a61c-c8fbaca4938e - SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-ptNKpHR1YP0lR-iYtT7sOw identity=143ca71c] started
+2024-10-11 14:53:39 - RequestID: 5850e1cb-7b62-4a09-a61c-c8fbaca4938e - Received message, the result was: 3001.0
+2024-10-11 14:54:24 - RequestID: f71409ee-7eb3-4c5f-be7e-a6b0ff6e41ee - A enviar a mensagem! (1888.5 + 1112.5)
+2024-10-11 14:54:24 - RequestID: f71409ee-7eb3-4c5f-be7e-a6b0ff6e41ee - Received message, the result was: 3001.0
+2024-10-11 15:00:07 - RequestID: cde5be8b-c191-4aed-9a13-19f63f2403d9 - {"data":null,"errorDetails":{"exceptionMessage":"Failed to convert value of type 'java.lang.String' to required type 'java.math.BigDecimal'; Character p is neither a decimal digit number, decimal point, nor \"e\" notation exponential mark."},"successfull":false}
