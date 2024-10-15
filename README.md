@@ -6,7 +6,7 @@ This challenge was made to evaluate Java developers applying to WIT. The result 
 ## API's Documentation
 
 
-#### Sum (-)
+#### Sum (+)
 
 
 ```http
@@ -33,7 +33,7 @@ This challenge was made to evaluate Java developers applying to WIT. The result 
 | `b`         | `BigDecimal` | **Obrigatório**. Second Value              |
 
 
-#### Multiplication (-)
+#### Multiplication (*)
 
 
 ```http
@@ -46,7 +46,7 @@ This challenge was made to evaluate Java developers applying to WIT. The result 
 | `b`         | `BigDecimal` | **Obrigatório**. Second Value              |
 
 
-#### Division (-)
+#### Division (/)
 
 
 ```http
